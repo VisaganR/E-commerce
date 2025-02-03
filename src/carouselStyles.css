@@ -1,0 +1,20 @@
+/* src/styles/carouselStyles.css */
+.carousel-inner {
+    perspective: 1000px;
+  }
+  
+  .carousel-item {
+    transform: rotateY(90deg);
+    transition: transform 0.6s ease-in-out;
+    backface-visibility: hidden;
+  }
+  
+  .carousel-item.active {
+    transform: rotateY(0deg);
+  }
+  
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    transition: transform 0.6s ease-in-out;
+  }
