@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "D:/frontend/React_E-Commerce/src/carouselStyles.css"; // Make sure to import your updated CSS here
+import '../carouselStyles.css';// Make sure to import your updated CSS here
 
 const Home = () => {
   
